@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px; 
+  
+
+}
+.container {
+    position: relative;
+    width: 100%;
+
+}
+
+a {
+    font-family: "DTL Documenta TOT", DTL Documenta TOT;
+    font-size: 13pt;
+    line-height:16pt;
+	color:#000;
+    text-decoration: none;
+}
+
+
+.right {
+    position: absolute;
+    right: 100px;
+    width: 550px;
+}
+
+p.small {
+    line-height: 10%;
+}
+p.small2 {
+    line-height: 20%;
+}
+h1 {
+ font-family: "DTL Documenta TOT", DTL Documenta TOT;
+ font-size: 200px;
+}    
+h2 {
+    font-family: "DTL Documenta TOT", DTL Documenta TOT;
+    font-size: 80px;
+} 
+h3 {
+    font-family: "DTL Documenta TOT", DTL Documenta TOT;
+    font-size: 14px;
+}    
+
+
+.alpha {
+  background: #000;
+}
+
+.beta {
+  background-color:#fff!important;
+}
+
+.switch-wrapper {
+  display: inline-block;
+  position: relative;
+  top: 3px;
+}
+
+#switch-wrapper {
+position:fixed;
+}
+
+.nav-bar2 {
+  font-family: "DTL Documenta TOT", DTL Documenta TOT;
+  position: fixed;
+  right: 700px;
+  top: 88%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-align: right;
+  z-index: 100; }
+  bottom:170px;
+  padding-left: 25px;
+  width: 180px;
+  height: 0px;
+  background-color: #000;
+  background-color: white;
+}
+
+
+.nav.nav-dot {
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 100%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    -webkit-transition: all 0.3s linear;
+            transition: all 0.3s linear; }
+            
+nav.is-dark .nav-dot {
+    background-color: rgba(0, 0, 0, 0.5); }
+  nav ul {
+    margin: 0;
+    padding: 0; }
+  nav li {
+    width: auto;
+    list-style: none; }            
+            
+
+
+////////////////////////////////
+
+.tooltip
+{
+  text-decoration:none;
+  position:relative;
+}
+ 
+ 
+.tooltip span
+{
+  display:none;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  font-family: "DTL Documenta TOT", DTL Documenta TOT; 
+}
+ 
+ 
+.tooltip span img
+{
+  float:left;
+  margin:10px 50px 50px 50px;
+}
+ 
+ 
+.tooltip:hover span
+{
+  background:none;
+  font-family: "DTL Documenta TOT", DTL Documenta TOT;
+  display:block;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:1000;
+  width:auto;
+  max-width:1000px;
+  min-height:100px;
+  border:none;
+  margin-top:12px;
+  margin-left:32px;
+  overflow:hidden;
+  padding:8px;
+}
