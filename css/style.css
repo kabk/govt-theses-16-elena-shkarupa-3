@@ -46,7 +46,7 @@ h3 {
 }    
 
 
-.alpha {
+.intrigue .alpha {
   background: #000;
 }
 
@@ -124,6 +124,8 @@ nav.is-dark .nav-dot {
   -moz-border-radius:6px;
   -webkit-border-radius:6px;
   border-radius:6px;
+  color:black;
+  background:white;
   font-family: "DTL Documenta TOT", DTL Documenta TOT; 
 }
  
@@ -153,3 +155,4 @@ nav.is-dark .nav-dot {
   overflow:hidden;
   padding:8px;
 }
+
