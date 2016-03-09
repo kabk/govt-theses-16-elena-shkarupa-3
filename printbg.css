@@ -13,6 +13,13 @@
 
     display: none;
   }
+  .switch-wrapper {
+  display: none;
+  }
+  
+  .warning{
+display:none;
+}
   
   .alpha {
   opacity:0;
@@ -29,8 +36,15 @@ a {
 h1 {
  font-family: "DTL Documenta TOT", DTL Documenta TOT;
  font-size: 200px;
-}    
+}  
+  
 h2 {
     font-family: "DTL Documenta TOT", DTL Documenta TOT;
     font-size: 80px;
+}
+
+a[data-toggle=tooltip]:after {
+	content:" [" attr(title) "] ";
+}
+
 }
