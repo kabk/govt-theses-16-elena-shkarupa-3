@@ -18,6 +18,9 @@
 .abstract{
 display:none;
 }
+.page-break{
+display:none;
+}
 
 .images {
 display:none;
@@ -41,6 +44,9 @@ display:none;
   nav li {
   display:none;
   
+.page-break{
+display:none;
+}  
 }
 .container {
     display:none;
@@ -94,6 +100,9 @@ display:none;
 
     display: none;
   }
+.page-break{
+display:none;
+}
 
 }
 
@@ -107,6 +116,10 @@ display:none;
   nav li {
   display:none;
   
+}
+
+.page-break{
+display:none;
 }
 .container {
 display: none;
@@ -137,6 +150,11 @@ display:none;
   display:none;
   
 }
+
+.page-break{
+display:none;
+} 
+
 .container {
     display: none;
 
@@ -163,6 +181,9 @@ display:none;
   nav li {
   display:none;
   
+}
+.page-break{
+display:none;
 }
 .container {
     display: none;
@@ -192,6 +213,11 @@ display:none;
   display:none;
   
 }
+
+.page-break{
+display:none;
+}
+
 .container {
     display: none;
 
