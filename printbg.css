@@ -18,5 +18,19 @@
   opacity:0;
 }
 
+a {
+    font-family: "DTL Documenta TOT", DTL Documenta TOT;
+    font-size: 13pt;
+    line-height:16pt;
+	color:#000;
+    text-decoration: none;
+}
 
+h1 {
+ font-family: "DTL Documenta TOT", DTL Documenta TOT;
+ font-size: 200px;
+}    
+h2 {
+    font-family: "DTL Documenta TOT", DTL Documenta TOT;
+    font-size: 80px;
 }
