@@ -3,6 +3,14 @@
 
 @media all and (min-width: 1600px)  {
 
+  nav ul {
+  display:none;
+  
+}
+  nav li {
+  display:none;
+  
+}
 .container {
     display:none;
 
@@ -26,7 +34,14 @@ display:none;
 }
 
 @media all and (max-width: 1600px)  {
-
+ nav ul {
+  display:none;
+  
+}
+  nav li {
+  display:none;
+  
+}
 .container {
     display:none;
 
@@ -52,6 +67,14 @@ display:none;
 
 @media all and (max-width: 1370px)  {
 
+ nav ul {
+  display:none;
+  
+}
+  nav li {
+  display:none;
+  
+}
 .container {
     display:none;
 
@@ -77,6 +100,14 @@ display:none;
 
 @media all and (max-width: 1200px)  {
  
+  nav ul {
+  display:none;
+  
+}
+  nav li {
+  display:none;
+  
+}
 .container {
 display: none;
 
@@ -98,6 +129,14 @@ display:none;
 
 @media all and (max-width: 1024px)  {
 
+ nav ul {
+  display:none;
+  
+}
+  nav li {
+  display:none;
+  
+}
 .container {
     display: none;
 
@@ -116,6 +155,15 @@ display:none;
 }
 
 @media all and (max-width: 992px)  {
+
+ nav ul {
+  display:none;
+  
+}
+  nav li {
+  display:none;
+  
+}
 .container {
     display: none;
 
@@ -135,6 +183,15 @@ display:none;
 }
 
 @media all and (max-width: 768px)  {
+
+ nav ul {
+  display:none;
+  
+}
+  nav li {
+  display:none;
+  
+}
 .container {
     display: none;
 
