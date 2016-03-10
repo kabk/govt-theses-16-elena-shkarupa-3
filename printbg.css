@@ -2,22 +2,23 @@
 @media print {
   .print {page-break-after: always;}
 
+.page-break{page-break-after: always;}
 
-  .right{
+.right{
     position: static;
     width: 60%;
     right: 0px;
   }
 
-  .nav-bar2{
-
-    display: none;
+.nav-bar2{
+ display: none;
   }
-  .switch-wrapper {
+  
+.switch-wrapper {
   display: none;
   }
   
-  .warning{
+.warning{
 display:none;
 }
   
@@ -25,10 +26,20 @@ display:none;
   opacity:0;
 }
 
+.header{
+display:inherit;
+font-family: "DTL Documenta TOT", DTL Documenta TOT;
+font-size: 1pt;
+line-height:16pt;
+position: relative;
+width: 60%;
+right: 0px;
+}
+
 a {
     font-family: "DTL Documenta TOT", DTL Documenta TOT;
-    font-size: 13pt;
-    line-height:16pt;
+    font-size: 12pt;
+    line-height:15pt;
 	color:#000;
     text-decoration: none;
 }
@@ -36,13 +47,18 @@ a {
 h1 {
  font-family: "DTL Documenta TOT", DTL Documenta TOT;
  font-size: 200px;
+
 }  
   
 h2 {
     font-family: "DTL Documenta TOT", DTL Documenta TOT;
-    font-size: 80px;
+    font-size: 50px;
 }
 
+h3 {
+    font-family: "DTL Documenta TOT", DTL Documenta TOT;
+    font-size: 12px;
+}    
 a[data-toggle=tooltip]:after {
 	content:" [" attr(title) "] ";
 }

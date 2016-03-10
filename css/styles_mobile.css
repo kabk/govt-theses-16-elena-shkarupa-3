@@ -2,7 +2,7 @@
 /* styles for screens*/
 
 
-@media all and (max-width: 768px)  {
+@media screen and (max-width: 768px)  {
 
  nav ul {
   display:none;

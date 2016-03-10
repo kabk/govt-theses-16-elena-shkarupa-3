@@ -19,6 +19,10 @@ display:none;
 display:none;
 }
 
+.header{
+display:none;
+}
+
 a {
     font-family: "DTL Documenta TOT", DTL Documenta TOT;
     font-size: 13pt;
