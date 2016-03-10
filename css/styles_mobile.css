@@ -32,5 +32,9 @@ display:none;
 display:none;
 }
 
+.warning{
+display:inherit;
+}
+
 }
 
